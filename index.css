@@ -1,0 +1,76 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.fotoPerfil {
+    width: 18vw;
+    height: 48vh;
+    object-fit: cover;
+}
+
+header {
+    border-bottom: 25px solid black;
+
+    background-image: url(assets/fundo.jpg);
+    background-attachment: fixed;
+    background-size: 200px;
+}
+
+.textoHeader {
+    color: beige;
+    background-color: black;
+}
+
+.indice {
+    color: beige;
+    background-color: black;
+}
+
+body {
+    background-color: rgb(68, 1, 1);
+    border: 2ch;
+    border-style: solid black;
+}
+
+.ferramentas {
+    display: table;
+    justify-self: center;
+}
+
+.aprendendo {
+    display: table;
+    justify-self: center;
+}
+
+#projetos {
+    background-color: black;
+    color: beige;
+}
+
+.projetosImg {
+    display: grid;
+    justify-self: center;
+}
+
+h3 {
+    display: grid;
+    justify-self: center;
+}
+
+footer {
+    background-image: url(assets/fundo.jpg);
+    background-attachment: fixed;
+    background-size: 200px;
+}
+
+.footerImagens{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footerTexto {
+    display: flex;
+    justify-content: center;
+}

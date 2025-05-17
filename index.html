@@ -5,29 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portifólio</title>
+    <link rel="stylesheet" href="index.css">
     <link rel="icon" type="image/x-icon" href="assets/voceJaSonhouComEsteHomem.png">
 </head>
 
-<body style="color:whitesmoke">
-    <header style="background-color:grey">
-        <h1>E aí, tudo certo? Eu sou a Maria Fernanda!</h1>
-        <p>Sou desenvolvedora web (em constante evolução), apaixonada por criar interfaces legais e funcionais. Vem dar
-            uma olhada nos meus projetos e conhecer um pouco do meu universo!</p>
+<body>
+    <header>
+        <img class="fotoPerfil" src="assets/euaff.JPG" alt="foto minha">
+        <div class="textoHeader">
+            <h1>E aí, tudo certo? Eu sou a Maria Fernanda!</h1> <br>
+            <p>Sou desenvolvedora web (em constante evolução), renho gosto por criar interfaces legais e funcionais.
+                Vem
+                dar
+                uma olhada nos meus projetos!</p>
+            <br><br>
+        </div>
         <nav>
-            <h2>Índice</h2>
-            <ul>
-                <li><a href="#sobreMim">Detalhes pessoais</a></li>
-                <li><a href="#valores">Valores</a></li>
-                <li><a href="#conhecimentos">Conhecimentos</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#processo">Minha abordagem e processo</a></li>
-                <li><a href="#disponibilidade">Disponibilidade e interesse</a></li>
-            </ul>
+            <div class="indice">
+                <section id="indice">
+                    <h2>Índice</h2>
+                    <ul>
+                        <li><a href="#sobreMim">Detalhes pessoais</a></li>
+                        <li><a href="#valores">Valores</a></li>
+                        <li><a href="#conhecimentos">Conhecimentos</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#processo">Minha abordagem e processo</a></li>
+                        <li><a href="#disponibilidade">Disponibilidade e interesse</a></li>
+                    </ul>
+                    <br>
+                </section>
+            </div>
         </nav>
     </header>
-    <main style="background-color:black">
+    <main>
         <section id="sobreMim">
-            <h2>Sobre mim</h2>
+            <h3>Sobre mim</h3>
+            <br>
+
             <p>
                 Meu nome é Maria Fernanda, tenho 18 anos e sou de São Paulo. Atualmente não atuo na área da tecnologia,
                 porém meus estudos tem foco em front-end
@@ -42,11 +56,15 @@
             <p>Aqui no meu portfólio você vai encontrar meus projetos mais recentes, um pouco sobre minha jornada e como
                 posso contribuir com o seu time ou ideia.
             </p>
-            </p>
+
+            <br>
         </section>
 
         <section id="valores">
-            <h2>Meus valores</h2>
+            <h3>Meus valores</h3>
+
+            <br>
+
             <ul>
                 <li>
                     <p><strong>Autencidade:</strong> Acredito que ser quem a gente é — com todas as nossas cores — é o
@@ -69,18 +87,24 @@
                         qualidade e responsabilidade com o que entrego.</p>
                 </li>
             </ul>
+
+            <br>
         </section>
 
         <section id="conhecimentos">
-            <h2>Meus conhecimentos</h2>
+            <h3>Meus conhecimentos</h3>
+
+            <br>
 
             <p> Estou construindo minha jornada na área da tecnologia com dedicação e curiosidade. Tenho experiência com
                 ferramentas criativas, conhecimentos em manutenção e sistemas, e estou em constante aprendizado no
                 desenvolvimento web. Aqui está um resumo do que já explorei e o que estou aprendendo no momento:
             </p>
 
-            <h3>Ferramentas e Softwares:</h3>
-            <ul>
+            <br>
+
+            <ul class="ferramentas">
+                <h3>Ferramentas e Softwares:</h3>
                 <li>🎨 Blender</li>
                 <li>🖌️ Photoshop</li>
                 <li>🕹️ Game Engine </li>
@@ -88,34 +112,48 @@
                 <li>💿 Conhecimentos em software</li>
             </ul>
 
-            <h3>Atualmente aprendendo:</h3>
-            <ul>
+            <br>
+
+            <ul class="aprendendo">
+                <h3>Atualmente aprendendo:</h3>
                 <li>💻 HTML</li>
                 <li>🎨 CSS</li>
                 <li>🧠 JavaScript</li>
             </ul>
+            <br>
         </section>
 
         <section id="projetos">
-            <h2>Meus projetos</h2>
+            <h3>Meus projetos</h3>
+
+            <br>
+
             <p>
                 Aqui você encontra alguns dos trabalhos que já desenvolvi — desde criações gráficas até os meus
                 primeiros passos no desenvolvimento web.
             </p>
 
+            <br>
+
             <a href="/html/projetos.html" target="_blank">
-                <img src="assets/projetinho.png" alt="imagem clicável para direcionamento à página dos meus projetos" width="400px" height="250px">
+                <img class="projetosImg" src="assets/projetinho.png"
+                    alt="imagem clicável para direcionamento à página dos meus projetos" width="400px" height="250px">
             </a>
 
         </section>
 
         <section id="processo">
-            <h2>Minha abordagem e processo</h2>
+            <h3>Minha abordagem e processo</h3>
+
+            <br>
+
             <p>
                 Acredito que todo projeto é uma oportunidade de aprender, criar algo único e entregar valor de forma
                 verdadeira. Meu processo mistura planejamento, criatividade e adaptação — sempre respeitando a essência
                 da ideia e o que ela precisa comunicar.
             </p>
+
+            <br>
 
             <ol>
                 <li>
@@ -140,15 +178,21 @@
                 </li>
             </ol>
 
+            <br>
+
             <p>
                 Levo meu processo com leveza, mas com responsabilidade. Estou sempre buscando evoluir como pessoa e
                 profissional, e cada projeto é um passo nessa caminhada.
             </p>
 
+            <br>
+
         </section>
 
         <section id="disponibilidade">
-            <h2>Disponibilidade e interesse</h2>
+            <h3>Disponibilidade e interesse</h3>
+
+            <br>
 
             <p>
                 No momento, estou disponível para colaborar em projetos criativos, freelas, parcerias ou até mesmo vagas
@@ -166,14 +210,23 @@
                 conversar!
             </p>
 
+            <br>
+
         </section>
     </main>
-    <footer style="background-color: grey;">
-        <h2>Contato:</h2>
-        <a href="https://github.com/maria0fernanda0" target="_blank"><img src="assets/githubIcon.png" alt="ícone do github" width="40px" height="40px"></a>
-        <a href="https://www.linkedin.com/in/maria-fernanda-dias-726601289/" target="_blank"><img src="assets/LinkedIn_icon.svg.png" alt="Ícone do LinkeDin" width="40px" height="40px"></a>
-        <a href="mailto:mafe.dias06@gmail.com"><img src="assets/emailIcon.jpg" alt="ícone do e-mail" width="40px" height="40px"></a> <br>
-        <p>Feito por Maria Fernanda &copy; </p>
+    <footer>   
+            <h3>Contato:</h3>
+        <div class="footerImagens">
+            <a href="https://github.com/maria0fernanda0" target="_blank"><img src="assets/githubIcon.png"
+                    alt="ícone do github" width="40px" height="40px"></a>
+            <a href="https://www.linkedin.com/in/maria-fernanda-dias-726601289/" target="_blank"><img
+                    src="assets/LinkedIn_icon.svg.png" alt="Ícone do LinkeDin" width="40px" height="40px"></a>
+            <a href="mailto:mafe.dias06@gmail.com"><img src="assets/emailIcon.jpg" alt="ícone do e-mail" width="40px"
+                    height="40px"></a> <br>
+        </div>
+        <div class="footerTexto">
+            <p>Feito por Maria Fernanda &copy; </p>
+        </div>
 
     </footer>
 </body>
