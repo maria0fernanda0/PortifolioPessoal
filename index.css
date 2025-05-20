@@ -5,12 +5,15 @@
 
 .fotoPerfil {
     width: 18vw;
-    height: 48vh;
+    height: 28vh;
     object-fit: cover;
 }
 
 header {
     border-bottom: 25px solid black;
+    display: flex;
+    text-align: center;
+    padding: 40px;
 
     background-image: url(assets/fundo.jpg);
     background-attachment: fixed;
@@ -18,13 +21,48 @@ header {
 }
 
 .textoHeader {
+    height: 100px;
+    width: 3000px;
     color: beige;
     background-color: black;
+    border-radius: 30px;
 }
 
-.indice {
+.textoHeader span{
+    color: darkred;
+}
+
+.indice{
+    background-color: rgba(0, 0, 0, 0.55);
+    color: beige;
+    border-radius: 30px;
+}
+
+.indice button {
     color: beige;
     background-color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 35px;
+}
+
+.indice a{
+    color: red;
+}
+
+.indice button a:hover{
+    background-color: darkred;
+    color: black;
+}
+
+.indice button:hover{
+    background-color: darkred;
+    color: black;
+}
+
+.indice ul{
+    list-style-type: none;
 }
 
 body {
