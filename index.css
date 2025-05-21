@@ -3,6 +3,11 @@
     margin: 0px;
 }
 
+body {
+    background-color: rgb(68, 1, 1);
+    font-family: "Crimson Text", serif;
+}
+
 .fotoPerfil {
     width: 18vw;
     height: 28vh;
@@ -25,65 +30,144 @@ header {
     width: 3000px;
     color: beige;
     background-color: black;
-    border-radius: 30px;
+    border-radius: 8px;
 }
 
-.textoHeader span{
+.textoHeader span {
     color: darkred;
 }
 
-.indice{
-    background-color: rgba(0, 0, 0, 0.55);
+.indice {
+    background-color: rgba(0, 0, 0, 0.644);
     color: beige;
-    border-radius: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    height: 80%;
 }
 
 .indice button {
     color: beige;
     background-color: black;
     text-decoration: none;
-    border-radius: 15px;
-    width: 150px;
-    height: 35px;
+    border-style: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
 }
 
-.indice a{
+.indice a {
     color: red;
 }
 
-.indice button a:hover{
+.indice button a:hover {
     background-color: darkred;
     color: black;
 }
 
-.indice button:hover{
+.indice button:hover {
     background-color: darkred;
     color: black;
 }
 
-.indice ul{
+.indice ul {
     list-style-type: none;
 }
 
-body {
-    background-color: rgb(68, 1, 1);
-    border: 2ch;
-    border-style: solid black;
+main {
+    padding: 20px;
+    background-color: #400c0f;
+    color: antiquewhite;
+    display: grid;
+    justify-content: center;
+}
+
+#sobreMim {
+    background-color: rgba(0, 0, 0, 0.225);
+    width: 1000px;
+    padding: 10px;
+    line-height: 28px;
+    border-radius: 10px;
+    margin: 15px;
+
+}
+
+#sobreMim h3 {
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+}
+
+#valores {
+    background-color: rgba(0, 0, 0, 0.225);
+    width: 1000px;
+    padding: 10px;
+    line-height: 40px;
+    border-radius: 10px;
+    margin: 15px 15px 15px 15px;
+}
+
+#valores ul li {
+    list-style-type: none;
+}
+
+#valores h3 {
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+}
+
+#conhecimentos {
+    background-color: rgba(0, 0, 0, 0.225);
+    width: 1000px;
+    padding: 10px;
+    line-height: 28px;
+    border-radius: 10px;
+    margin: 15px;
+
+}
+
+#conhecimentos h3 {
+    background-color: black;
+    width: 100%;
+    justify-content: center
 }
 
 .ferramentas {
     display: table;
     justify-self: center;
+    background-color: rgba(0, 0, 0, 0.443);
+    padding: 15px;
+    width: 80%;
+    list-style-type: none;
 }
 
 .aprendendo {
     display: table;
     justify-self: center;
+    background-color: rgba(0, 0, 0, 0.443);
+    padding: 15px;
+    width: 80%;
+    list-style-type: none;
 }
 
 #projetos {
     background-color: black;
     color: beige;
+    padding: 7px;
+}
+
+#projetos h3 {
+    color: rgb(0, 0, 0);
+    background-color: rgba(139, 0, 0, 0.386);
+    width: 98%;
+    margin: 10px;
+    justify-content: center;
+
+}
+
+#projetos p {
+    display: grid;
+    justify-content: center;
 }
 
 .projetosImg {
@@ -96,19 +180,56 @@ h3 {
     justify-self: center;
 }
 
+#processo {
+    display: table;
+    justify-self: center;
+    background-color: rgba(0, 0, 0, 0.443);
+    padding: 15px;
+    width: 80%;
+    list-style-type: none;
+    margin: 15px;
+}
+
+#processo h3 {
+    background-color: black;
+    width: 100%;
+    justify-content: center
+}
+
+#processo ol li{
+    list-style-type: none;
+}
+
+#disponibilidade {
+    display: table;
+    justify-self: center;
+    background-color: rgba(0, 0, 0, 0.443);
+    padding: 15px;
+    width: 80%;
+    list-style-type: none;
+}
+
+#disponibilidade h3 {
+    background-color: black;
+    width: 100%;
+    justify-content: center
+}
+
 footer {
     background-image: url(assets/fundo.jpg);
     background-attachment: fixed;
     background-size: 200px;
+    color: aliceblue;
 }
 
-.footerImagens{
+.footerImagens {
     display: flex;
     justify-content: center;
-    
+
 }
 
 .footerTexto {
+    color: aliceblue;
     display: flex;
     justify-content: center;
 }
