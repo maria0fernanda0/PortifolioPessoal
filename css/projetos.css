@@ -1,0 +1,65 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+body{
+    background-image: url(/assets/fundo.jpg);
+    background-size: 150px;
+    background-attachment: fixed;
+    display: grid;
+    font-family: "Crimson Text", serif;
+    font-size: 20px;
+}
+
+.textoHeader h1{
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 15px 0px 15px 0px;
+    justify-content: center;
+    text-align: end;
+}
+
+.textoHeader p{
+    margin-top: 60px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.55);
+    color: red;
+    border-radius: 14px ;
+    text-align: center;
+}
+
+#projetosImgs{
+    margin: 60px 0px 60px 0px;
+    background-color: rgba(0, 0, 0, 0.44);
+    padding: 40px;
+    text-align: center;
+}
+
+#projetosImgs a img{
+    width: 25vw;
+    height: 32vh;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.476);
+    background-attachment: fixed;
+    background-size: 200px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.footerImagens {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px solid darkred;
+
+}
+
+.footerTexto {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}

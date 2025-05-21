@@ -78,7 +78,7 @@ main {
     background-color: #400c0f;
     color: antiquewhite;
     display: grid;
-    justify-content: center;
+    justify-items: center;
 }
 
 #sobreMim {
@@ -88,6 +88,7 @@ main {
     line-height: 28px;
     border-radius: 10px;
     margin: 15px;
+    justify-items: center;
 
 }
 
@@ -103,7 +104,8 @@ main {
     padding: 10px;
     line-height: 40px;
     border-radius: 10px;
-    margin: 15px 15px 15px 15px;
+    margin: 15px;
+    justify-items: center;
 }
 
 #valores ul li {
@@ -123,6 +125,7 @@ main {
     line-height: 28px;
     border-radius: 10px;
     margin: 15px;
+    justify-items: center;
 
 }
 
@@ -133,14 +136,13 @@ main {
 }
 
 .ferramentas {
-    display: table;
+    display: grid;
     justify-self: center;
     background-color: rgba(0, 0, 0, 0.443);
     padding: 15px;
     width: 80%;
     list-style-type: none;
 }
-
 .aprendendo {
     display: table;
     justify-self: center;
@@ -167,7 +169,7 @@ main {
 
 #projetos p {
     display: grid;
-    justify-content: center;
+    justify-items: center;
 }
 
 .projetosImg {
@@ -181,8 +183,8 @@ h3 {
 }
 
 #processo {
-    display: table;
-    justify-self: center;
+    display: grid;
+    justify-items: center;
     background-color: rgba(0, 0, 0, 0.443);
     padding: 15px;
     width: 80%;
@@ -201,8 +203,8 @@ h3 {
 }
 
 #disponibilidade {
-    display: table;
-    justify-self: center;
+    display: grid;
+    justify-items: center;
     background-color: rgba(0, 0, 0, 0.443);
     padding: 15px;
     width: 80%;
@@ -225,6 +227,7 @@ footer {
 .footerImagens {
     display: flex;
     justify-content: center;
+    margin-top: 30px solid black;
 
 }
 
